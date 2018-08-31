@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>ICP2 Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+    <script src="weatherretreval.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+<div style="text-align: center">
+<div>
+    <h1 style="text-align: center";>ICP 2 -Weather Application</h1>
+    <form>
+        Enter State:
+        <input style="font-size: large" type="text" name="Code" id="CodeId">
+        City:
+        <input style="font-size: large" type="text" name="City" id="CityId">
+    </form>
+    <div ng-app="weather" ng-controller="weatherbtn">
+        <br/>
+        <button style=" font-size: Small" class="button button3" id="btn" ng-click="getWeather()"> Get Weather </button>
+        <br/>
+        <br/>
+        <div class="weatherModule">
+            <p class="currentConditions" ng-bind-html="currentweather.html"></p>
+
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
