@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nutrition</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.min.js"></script>
+
+
+    <script>
+        angular.module('totalNutrition', [])
+            .controller('totalNutritionCtrl', function($scope, $http) {
+
+                $scope.getTotalNutrition = function() {
+                    var fooditem = $scope.fooditem;
+                    $http.get('https://api.nutritionix.com/v1_1/search/'+fooditem+'?results=0:1&fields=*&appId=21b2c636&appKey=9b07c7bdbed7dcde924364786f78eb76').success(function(data) {
+                        console.log(data);
+                        calories = data.hits[0].fields.nf_calories;
+                        weight= data.hits[0].fields.nf_serving_weight_grams;
+                        var total =  fooditem + " has " + calories + " and weights" + weight;
+                        $scope.caloriesandweight = {
+                            html: " Contains " + calories + " calories </br> "+"weight is " + weight+  "grams"
+                        }
+                        $scope.caloriesandweightaudio = {
+                            html: "<a href=\"https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?username=4d2de8f4-3571-4553-9f22-fe06e416fb62&password=UKXJqkChpjTn&text="+total+"\">Click Here</a>"
+                        }
+                    })
+                }
+            });
+    </script>
+
+    <style>
+        body {
+            background-image: url("background.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:2000px;
+        }
+        .NutritionDetails {
+            height: 200px;
+            width: 250px;
+            border: 1px dashed #ccc;
+            padding: 1em;
+            background-color:white;
+
+
+        }
+        h1 {
+            color: white;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div class="myNutritionData" align="center">
+    <div ng-app="totalNutrition" ng-controller="totalNutritionCtrl">
+        <h1>Calorie Intake</h1>
+        Enter food item:<input type="text" id="myItem" ng-model="fooditem" placeholder="Enter food">
+        <br/>
+        <br/>
+
+
+        <button href="" id="myButton" ng-click="getTotalNutrition()">Press</button>
+
+        <br/>
+        <br/>
+        <div class="NutritionDetails">
+            <p ng-bind-html-unsafe="caloriesandweight.html"></p>
+            <p ng-bind-html-unsafe="caloriesandweightaudio.html"></p>
+        </div>
+
+
+    </div>
+
+</div>
+</body>
+</html>
