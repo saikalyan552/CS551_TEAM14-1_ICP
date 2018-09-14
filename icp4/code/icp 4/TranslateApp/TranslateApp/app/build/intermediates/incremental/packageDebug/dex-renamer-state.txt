@@ -1,0 +1,7 @@
+#Fri Sep 14 00:25:59 CDT 2018
+base.0=C\:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_43ceb1e804a972860e1df0debe4eb1e89f83b940
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f849a003f95222b9d770223e2ed34b5ac900bb45\\classes.dex
+base.1=C\:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f849a003f95222b9d770223e2ed34b5ac900bb45
+file.0=C\:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_43ceb1e804a972860e1df0debe4eb1e89f83b940\\classes.dex
