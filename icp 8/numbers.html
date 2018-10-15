@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Numbers API</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Required Imports -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <!-- Required Import for Data Binding -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-sanitize.js"></script>
+    <script src="numbers.js"></script>
+</head>
+
+<body>
+  <div  ng-controller="NamesCtrl" class="container" ng-app="numbersApp">
+    <h1 align="absolute" style="text-align: center; color: #1ab188">Search to know the importance of the date and month you passed!</h1>
+	<div class="form-group">
+    <label>Enter the month</label>
+    <input type="text" id="month" placeholder="Enter the month"/>
+  </div>
+  <div class="form-group">
+    <label>Enter the date&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="text" id="date" placeholder="Enter the date"/>
+  </div>
+     <button class="btn-primary" ng-click="getNumbersInfo()" style="margin-left: 8.0em;">Get Importance of numbers</button>
+	<br/><br/>
+	<p class="error" id="fielderror" ng-bind-html="fielderrorhtml" style="color:red;margin-left: 8.0em"></p>
+	<p id="output" style="display:none;margin-left: 8.0em"><strong>{{output}}</strong></p>
+</div>
+
+</body>
+</html>

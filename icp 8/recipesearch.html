@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Search</title>
+
+    <!-- Required Imports -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <!-- Required Import for Data Binding -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-sanitize.js"></script>
+    <script src="recipe.js"></script>
+
+</head>
+
+<body style="background-color: antiquewhite">
+<div ng-app="recipeApp" ng-controller="recipeCtrl" class="container">
+    <div align="center" >
+    <h2 style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;color: white">Recipe Details</h2>
+    <br/>
+    <label style="text-shadow: 2px 2px 3px blueviolet;">Enter text to get Recipe Details : </label>
+    <input type="text" ng-model="recipe" />
+    <button class="btn-success" ng-click="getRecipeDetails()"> Show Recipe Details </button>
+    </div>
+
+    <div class="row" id="recipes" style="display: none">
+     <br/>
+     <br/>
+    <div id="recipeDetails" ng-repeat="recipeDet in recipeDetails">
+            <div class="col-md-4" style="overflow: hidden;height: 100%">
+                <div class="thumbnail">
+                    <a href="{{recipeDet.recipe.image}}" target="_blank">
+                        <img src="{{recipeDet.recipe.image}}" alt="Image" style="width: 100%">
+                    </a>
+                        <div class="caption center-block">
+                            <p style="color: blueviolet"><strong>{{recipeDet.recipe.label}}</strong></p>
+                        </div>
+                    <label>Source of the Recipe : </label>
+                    <a target="_blank" href="{{recipeDet.recipe.url}}">{{recipeDet.recipe.source}}</a>
+                    <br/>
+                    <label>Ingredients :</label>
+                    <ul ng-repeat="ingredient in recipeDet.recipe.ingredientLines">
+                        <li>{{ingredient}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <!-- Hiding the errors first using Style display:none-->
+    <strong><p ng-bind-html="fielderrorhtml" id="fielderror" style="display: none;color: red;" align="center"></p></strong>
+    <br/>
+</div>
+</body>
+</html>
