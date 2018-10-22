@@ -1,0 +1,16 @@
+.margin-top-10px{
+    margin-top:10px; 
+}
+body{
+    background-color: #00e673;
+}
+
+.font-2em{
+    font-size: 2em!important;
+}
+.header-style{
+    display: inline-block;
+    
+    color: #fff;
+    padding: 10px;
+}
