@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\saika\\.android\\build-cache\\06e9367c2271e08995659903a239fc33cbb0f388\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/saikalyanvytla/.android/build-cache/0dd86bccf31c6f30915a1fff7894013db8e47373/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\saika\\.android\\build-cache\\06e9367c2271e08995659903a239fc33cbb0f388\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\.android\\build-cache\\06e9367c2271e08995659903a239fc33cbb0f388\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/saikalyanvytla/.android/build-cache/0dd86bccf31c6f30915a1fff7894013db8e47373/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\.android\\build-cache\\06e9367c2271e08995659903a239fc33cbb0f388\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

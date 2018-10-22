@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\saika\\.android\\build-cache\\016008614879d4db4733d070ed9d1e7b3d683f7a\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\.android\\build-cache\\016008614879d4db4733d070ed9d1e7b3d683f7a\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\saika\\.android\\build-cache\\016008614879d4db4733d070ed9d1e7b3d683f7a\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/saikalyanvytla/.android/build-cache/fa50451845cf8b4be571576d49c061878795125f/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\.android\\build-cache\\016008614879d4db4733d070ed9d1e7b3d683f7a\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/saikalyanvytla/.android/build-cache/fa50451845cf8b4be571576d49c061878795125f/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

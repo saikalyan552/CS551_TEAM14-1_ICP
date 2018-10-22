@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/Users/saikalyanvytla/Documents/GitHub/CS551_TEAM14-1_ICP/icp4/code/icp 4/TranslateApp/TranslateApp/C:\\Users\\saika\\Downloads\\icps\\icp 4\\TranslateApp\\TranslateApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]
